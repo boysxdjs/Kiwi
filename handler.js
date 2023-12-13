@@ -1551,7 +1551,7 @@ global.dfail = (type, m, conn) => {
     restrict: '*[ 🎄 ] 𝗘𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 𝗲𝘀𝘁𝗮 𝗿𝗲𝘀𝘁𝗿𝗶𝗻𝗴𝗶𝗱𝗼/𝗱𝗲𝘀𝗮𝗰𝘁𝗶𝘃𝗮𝗱𝗼 𝗽𝗼𝗿 𝗱𝗲𝘀𝗶𝗰𝗶ó𝗻 𝗱𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗼(𝗮) (𝗼𝘄𝗻𝗲𝗿) 𝗱𝗲𝗹 𝗕𝗼𝘁.*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝘽𝙤𝙩 🦂', body: '🦂 𝘼𝙡𝙖𝙘𝙧𝙖𝙣 🦂', thumbnail: imagen1, sourceUrl: 'https://www.instagram.com/team.clan.hack/'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝘽𝙤𝙩 🦂', body: '🦂 𝘼𝙡𝙖𝙘𝙧𝙖𝙣 🦂', thumbnail: imagen1, sourceUrl: 'https://www.instagram.com/alacran.bot.store/'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
