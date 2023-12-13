@@ -15,7 +15,7 @@ global.pagos = `
 🇨🇴 𝘾𝙤𝙡𝙤𝙢𝙗𝙞𝙖 : *24,385.54 Pesos Colombianos*
 🇵🇪 𝙋𝙚𝙧𝙪 : *20 Soles*
 🇨🇱 𝘾𝙝𝙞𝙡𝙚 : *5,284.59 Pesos Chilenos*
-🇦🇷 𝘼𝙧𝙜𝙚𝙣𝙩𝙞𝙣𝙖 : *2,227.84 Pesos Argentinos*
+🇦🇷 𝘼𝙧𝙜𝙚𝙣𝙩𝙞𝙣𝙖 : *6.000 Pesos Argentinos*
 🇧🇴 𝘽𝙤𝙡𝙞𝙫𝙞𝙖 : *42.52 Bolivianos*
 
 𝘽𝙤𝙩 𝙁𝙪𝙡𝙡 : *20 Soles*
