@@ -351,14 +351,14 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝘽𝙤𝙩 𝘿𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝙏𝙚 𝘿𝙖 𝙇𝙖 𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙖 @user 🩵';
-  conn.bye = '𝙏𝙚 𝙎𝙖𝙡𝙞𝙨𝙩𝙚 𝘿𝙚𝙡 𝙈𝙚𝙟𝙤𝙧 𝙂𝙧𝙪𝙥𝙤 𝙈𝙖𝙡𝙙𝙞𝙩𝙭 𝙉𝙚𝙜𝙧𝙭 @user 🩵';
-  conn.spromote = '𝙀𝙮 @user 𝙁𝙪𝙞𝙨𝙩𝙚 𝙋𝙧𝙤𝙢𝙤𝙫𝙞𝙙𝙤 𝘼 𝘼𝙙𝙢𝙞𝙣 𝙀𝙣 𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝙂𝙧𝙪𝙥𝙤 🩵';
-  conn.sdemote = '𝙀𝙮 @user 𝙁𝙪𝙞𝙨𝙩𝙚 𝘿𝙚𝙜𝙧𝙖𝙙𝙖𝙙𝙤 𝘼 𝙋𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖𝙣𝙩𝙚 𝙉𝙤𝙧𝙢𝙖𝙡 𝙀𝙣 𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝙂𝙧𝙪𝙥𝙤 🩵';
-  conn.sDesc = '𝐋𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢ó𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐝𝐚 🩵';
-  conn.sSubject = '𝐄𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐝𝐨 🩵';
-  conn.sIcon = '𝐒𝐞 𝐡𝐚 𝐜𝐚𝐦𝐛𝐢𝐚𝐝𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞 𝐩𝐞𝐫𝐟𝐢𝐥 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 🩵';
-  conn.sRevoke = '𝐄𝐥 𝐞𝐧𝐥𝐚𝐜𝐞 𝐝𝐞 𝐢𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧 𝐚𝐥 𝐠𝐫𝐮𝐩𝐨 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐫𝐞𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐢𝐝𝐨 🩵';
+  conn.welcome = '𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝘽𝙤𝙩 𝘿𝙚 𝙒𝙝𝙖𝙩𝙨𝘼𝙥𝙥 𝙏𝙚 𝘿𝙖 𝙇𝙖 𝘽𝙞𝙚𝙣𝙫𝙚𝙣𝙞𝙙𝙖 @user 🥝';
+  conn.bye = '𝙏𝙚 𝙎𝙖𝙡𝙞𝙨𝙩𝙚 𝘿𝙚𝙡 𝙈𝙚𝙟𝙤𝙧 𝙂𝙧𝙪𝙥𝙤 𝙈𝙖𝙡𝙙𝙞𝙩𝙭 𝙉𝙚𝙜𝙧𝙭 @user 🥝';
+  conn.spromote = '𝙀𝙮 @user 𝙁𝙪𝙞𝙨𝙩𝙚 𝙋𝙧𝙤𝙢𝙤𝙫𝙞𝙙𝙤 𝘼 𝘼𝙙𝙢𝙞𝙣 𝙀𝙣 𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝙂𝙧𝙪𝙥𝙤 🥝';
+  conn.sdemote = '𝙀𝙮 @user 𝙁𝙪𝙞𝙨𝙩𝙚 𝘿𝙚𝙜𝙧𝙖𝙙𝙖𝙙𝙤 𝘼 𝙋𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖𝙣𝙩𝙚 𝙉𝙤𝙧𝙢𝙖𝙡 𝙀𝙣 𝙀𝙡 𝙈𝙚𝙟𝙤𝙧 𝙂𝙧𝙪𝙥𝙤 🥝';
+  conn.sDesc = '𝐋𝐚 𝐝𝐞𝐬𝐜𝐫𝐢𝐩𝐜𝐢ó𝐧 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐝𝐚 🥝';
+  conn.sSubject = '𝐄𝐥 𝐧𝐨𝐦𝐛𝐫𝐞 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐦𝐨𝐝𝐢𝐟𝐢𝐜𝐚𝐝𝐨 🥝';
+  conn.sIcon = '𝐒𝐞 𝐡𝐚 𝐜𝐚𝐦𝐛𝐢𝐚𝐝𝐨 𝐥𝐚 𝐟𝐨𝐭𝐨 𝐝𝐞 𝐩𝐞𝐫𝐟𝐢𝐥 𝐝𝐞𝐥 𝐠𝐫𝐮𝐩𝐨 🥝';
+  conn.sRevoke = '𝐄𝐥 𝐞𝐧𝐥𝐚𝐜𝐞 𝐝𝐞 𝐢𝐧𝐯𝐢𝐭𝐚𝐜𝐢ó𝐧 𝐚𝐥 𝐠𝐫𝐮𝐩𝐨 𝐡𝐚 𝐬𝐢𝐝𝐨 𝐫𝐞𝐬𝐭𝐚𝐛𝐥𝐞𝐜𝐢𝐝𝐨 🥝';
 
   conn.handler = handler.handler.bind(global.conn);
   conn.participantsUpdate = handler.participantsUpdate.bind(global.conn);
@@ -512,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🦅 𝘽𝙤𝙩 𝙁𝙚𝙣𝙞𝙭 🦅`;
+  const bio = `𝗘𝘀𝘁𝗲 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 𝗛𝗮𝗰𝗲 𝗨𝘀𝗼 𝗗𝗲 𝗔𝗹𝗮𝗰𝗿𝗮𝗻 𝗕𝗼𝘁 - 𝗞𝗶𝘄𝗶 𝗕𝗼𝘁 🥝`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
